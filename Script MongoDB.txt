@@ -1,0 +1,18 @@
+db.Pessoa.insertOne({
+  nome: "Maria Beatriz",
+  idade: 21,
+  telefone: "+55 83 99999-0000",
+  altura: 1.65,
+  email: "maria.beatriz@example.com",
+  CPF: "111.222.000-00",
+  data_nascimento: new Date("2001-06-01"),
+  endereco: {
+    CEP: "58500-000",
+    rua: "Rua das Flores",
+    bairro: "Jardim das Rosas",
+    complemento: "Apto 123",
+    cidade: "Monteiro",
+    estado: "PB",
+    país: "Brasil"
+  }
+})

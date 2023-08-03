@@ -1,6 +1,6 @@
 package questao1;
 
-public class ClasseFuncionario {
+public class Funcionario {
 
 	private String nome;
 	private float salario;
